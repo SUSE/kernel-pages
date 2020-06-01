@@ -4,7 +4,7 @@
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <link rel="stylesheet" href="https://static.opensuse.org/themes/bento/css/style.css" type="text/css" media="screen" title="All" charset="utf-8">
             <link rel="icon" type="image/png" href="https://static.opensuse.org/themes/bento/images/favicon.png">
-            <title>master Kernel Branch</title>
+            <title>Live Patches for SLE15-SP2 Kernel Branch</title>
     </head>
     <body>
         <div id="content" class="container_16 content-wrapper">
@@ -53,58 +53,10 @@
             <div class="box box-shadow grid_12 clearfix">
                 <div class="grid_12 alpha omega row_30">
 
-                                        <h1>master</h1>
-                    <p>This is the master kernel branch.  It will eventually be branched into
-the next openSUSE kernel release, but for now it tracks the upstream
-kernel.org releases.
-</p><p>
-Use this branch at your own risk and please report bugs against
-openSUSE Factory.
-</p><p>
-The person in charge of this branch is:
-	Jeff Mahoney &lt;<a href="mailto:jeffm@suse.com?subject=master%20branch">jeffm@suse.com</a>&gt;
-	Michal Kubecek &lt;<a href="mailto:mkubecek@suse.com?subject=master%20branch">mkubecek@suse.com</a>&gt;
-</p><p>
-It is the above person's responsiblity for checking in this kernel to
-the build system, anyone else who wishes to do so, needs to get
-permission from them first.
-</p><p>
-If there are any questions about this branch, please contact the above
-mentioned maintainer.
-</p>
-
-                    </p>
-                    <h2>packages</h2>
-                    <p>To install <a href="https://kernel.suse.com/packages/HEAD">prebuilt kernel</a> from this branch run</p>
-                    <pre>
-zypper ar -f http://download.opensuse.org/repositories/Kernel:/HEAD/standard \
-    Kernel:HEAD
-zypper in --from Kernel:HEAD kernel-default
-                    </pre>
-                    <p>Please note: The packages are built for the distribution
-                    they are targetting. In case of the vanilla and linux-next
-                    branches, this is the latest released openSUSE version.
-                    While the packages should work fine on fine on a
-                    distribution that is slightly newer or slightly older,
-                    installing ancient kernels on the latest distributions is
-                    asking for trouble. Same goes for the opposite case, e.g.
-                    installing the Factory kernel on SLES 9.</p>
-                    <h2>kernel-source.git</h2>
-<p>There are two SUSE Kernel repositories. Development happens in the
-<a href="https://github.com/SUSE/kernel-source/tree/master">kernel-source</a>
-git repository. This tree is a quile-like series of patches against the
-upstream kernel, plus spec files and various scripts. You can clone it with
-</p>
-
-<pre>git clone https://github.com/SUSE/kernel-source -b master</pre>
-<h2>kernel.git</h2>
-<p> If you just want to hack on the sources and do not need to package the
-kernel, use the <a href="https://github.com/SUSE/kernel/tree/master">kernel</a>
-git repository. This one has the same layout as the upstream kernel. Clone
-command: </p>
-
-<pre>git clone https://github.com/SUSE/kernel -b master</pre>
+                                        <h1>Live patches for SLE15-SP2</h1>
                     
+
+                    <h2>live patches</h2><p> Sources of kernel live patch updates <a href="https://github.com/SUSE/kernel-livepatch/tree/SLE15-SP2_Update_0">SLE15-SP2_Update_0</a></p>
 
 
                 </div>
