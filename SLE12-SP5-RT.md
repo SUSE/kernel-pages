@@ -31,7 +31,7 @@ zypper in --from Kernel:SLE12-SP5-RT kernel-default
 
 Please note: The packages are built for the distribution they are
 targetting. In case of the vanilla and linux-next branches, this is the
-latest released openSUSE version. While the packages should work fine on
+latest released openSUSE version. While the packages should work
 fine on a distribution that is slightly newer or slightly older,
 installing ancient kernels on the latest distributions is asking for
 trouble. Same goes for the opposite case, e.g. installing the Factory
